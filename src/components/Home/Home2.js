@@ -1,13 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import myImg from "../../Assets/3.png";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaBehanceSquare } from 'react-icons/fa';
+import { FaDribbbleSquare } from 'react-icons/fa';
+import { FaPhone } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
+
 
 function Home2() {
   return (
@@ -19,42 +23,30 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I am an undergraduate student pursuing a BSc (Hons) degree in Information Technology at the Faculty of Humanities and Social Sciences, University of Sri Jayewardenepura.
               <br />
-              <br />I am fluent in classics like
+              <br />I create seamless and visually stunning digital experiences through 
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> UI/UX design, coding, and graphic design. </b>
+              </i>
+              I also enjoy watching movies, reading novels and traveling.
+              <br />
+              <br />
+              I am a young enthusiastic individual who always seeks for the 
+              opportunity. Therefore I have the ultimate intention of counting doing my stuff well. I really 
+              like to meet and work with different people. I am much interested in developing new things which
+               excite me a lot. 
+              <i>
+                
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+             
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+            <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -62,12 +54,32 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              FEEL FREE TO <span className="purple">SNOOP AROUND </span>ON MY SOCIAL MEDIA.
             </p>
             <ul className="home-about-social-links">
+            <li className="social-icons">
+                <a
+                  href="tel:0703272432"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaPhone />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="mailto:anupamapiyadigama@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://github.com/PiyumiAnupama"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +89,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://www.behance.net/piyumianupama1"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaBehanceSquare />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/anupamapiyadigama/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,12 +109,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://dribbble.com/AnupamaPiyadigama"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <FaDribbbleSquare />
                 </a>
               </li>
             </ul>
