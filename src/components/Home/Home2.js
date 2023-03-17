@@ -11,6 +11,14 @@ import { FaBehanceSquare } from 'react-icons/fa';
 import { FaDribbbleSquare } from 'react-icons/fa';
 import { FaPhone } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
+import Button from "react-bootstrap/Button";
+import Particle from "../Particle";
+import pdf from "../../Assets/../Assets/a.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
 
 
 function Home2() {
@@ -118,9 +126,31 @@ function Home2() {
                 </a>
               </li>
             </ul>
-          </Col>
+            <Container >
+            <br></br>
+        <Particle />
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download Resume
+          </Button>
         </Row>
+
+        
+        
       </Container>
+          </Col>
+          
+        </Row>
+        
+      </Container>
+      
+
     </Container>
   );
 }
