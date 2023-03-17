@@ -21,7 +21,7 @@ function AboutCard() {
         
         
         <h6 className="edu">NVQ Level 4 (Information Communication Technology Technician)     • 2019 - 2020</h6>
-        <h6 className="edu"><li>I have learned Office package, networking, Graphic design, & Programming.</li></h6>
+        <h6 className="edu"><li>I have learned Office package, Networking, Graphic design, & Programming.</li></h6>
         <br></br>
        
         <h4 className="ed">Sanghamitta Girls' College, Galle</h4>
