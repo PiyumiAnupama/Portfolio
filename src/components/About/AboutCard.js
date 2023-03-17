@@ -12,7 +12,7 @@ function AboutCard() {
           <h6 className="edu">BSc (Hons) in Information Technology    • 2020 - 2024</h6>
           <h6 className="edu"><li>In the First year I followed Psychology, Media, Political and ICT.</li></h6>
           <h6 className="edu"><li>Now I am following ICT BSc.Hons degree.</li></h6>
-          <h6 className="edu"><li>I am working for a lots of clubs and in my university life.</li></h6>
+          <h6 className="edu"><li>I am working for a lots of clubs in my university life.</li></h6>
         <br></br>
        
         <h4 className="ed">Vocational Training Authorty</h4>
