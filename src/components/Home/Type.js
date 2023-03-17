@@ -6,7 +6,7 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "UI UX Design and coding are my two passion.",
+          "UI UX Design and coding are my two passions.",
          
           
         ],
