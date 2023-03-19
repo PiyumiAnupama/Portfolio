@@ -16,6 +16,7 @@ import r from "../../Assets/Projects/11.png";
 import ai from "../../Assets/Projects/12.png";
 import cv from "../../Assets/Projects/13.png";
 import net from "../../Assets/Projects/14.png";
+import qa from "../../Assets/Projects/15.png";
 
 
 function Projects() {
@@ -207,6 +208,17 @@ function Projects() {
               title="CompTIA Network+ (N10-007) Cert Prep: 7 Wireless, Virtual, Cloud, and Mobile Networking"
               
               demoLink="https://www.linkedin.com/learning/certificates/1516e84d24770c2795c9b1fae3a4fd4f3dde3091458f2c6a401c719ab96ed83a?trk=share_certificate"
+              hasLink={false}
+                           
+            />
+          </Col>
+          <Col md={4} >
+            <ProjectCard
+              imgPath={qa}
+              isBlog={false}
+              title="Software Testing Tutorial"
+              
+              demoLink="https://www.linkedin.com/posts/anupamapiyadigama_1000-free-courses-with-free-certificates-activity-7043078150477549568-XH5o?utm_source=share&utm_medium=member_desktop"
               hasLink={false}
                            
             />
