@@ -91,8 +91,7 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Ball Rolling Game"
-              description="I developed a 3D game using unity platform. I learn throught the development process :Use Unity Editor and its built-in capabilities to set up a simple game environment,Write your own custom scripts to create the game functionality,Create a basic user interface to improve the game experience,Build my game as other people can play it!.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="I developed a 3D game using unity platform.I learn throught the development process :Use Unity Editor and its built-in capabilities to set up a simple game environment,Write your own custom scripts to create the game functionality,Create a basic user interface to improve the game experience,Build my game as other people can play it!"
               ghLink="https://github.com/PiyumiAnupama/BallRallingGame"
               hasLink={true}
               demoLink="https://drive.google.com/file/d/1_zLeEXHjV9FnC_oV_xg35j1lr_MkO0k7/view?usp=sharing/"
