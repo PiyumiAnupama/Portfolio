@@ -12,11 +12,12 @@ import uiux from "../../Assets/Projects/6.png";
 import grphc from "../../Assets/Projects/7.png";
 import tbl from "../../Assets/Projects/8.png";
 import nvq from "../../Assets/Projects/10.png";
-import r from "../../Assets/Projects/11.png";
+import r from "../../Assets/Projects/16.png";
 import ai from "../../Assets/Projects/12.png";
 import cv from "../../Assets/Projects/13.png";
 import net from "../../Assets/Projects/14.png";
 import qa from "../../Assets/Projects/15.png";
+import sb from "../../Assets/Projects/17.png";
 
 
 function Projects() {
@@ -168,9 +169,9 @@ function Projects() {
             <ProjectCard
               imgPath={r}
               isBlog={false}
-              title="Introduction to R"
+              title="UI / UX for Beginners"
               
-              demoLink="https://www.linkedin.com/posts/anupamapiyadigama_anupama-piyadigama-successfully-completed-activity-6927120724490956800-bZXx?utm_source=share&utm_medium=member_desktop"
+              demoLink="https://www.linkedin.com/posts/anupamapiyadigama_1000-free-courses-with-free-certificates-activity-7047998248493465600-rmhw?utm_source=share&utm_medium=member_desktop"
               hasLink={false}
             />
           </Col>
@@ -218,6 +219,18 @@ function Projects() {
               title="Software Testing Tutorial"
               
               demoLink="https://www.linkedin.com/posts/anupamapiyadigama_1000-free-courses-with-free-certificates-activity-7043078150477549568-XH5o?utm_source=share&utm_medium=member_desktop"
+              hasLink={false}
+                           
+            />
+          </Col>
+
+          <Col md={4} >
+            <ProjectCard
+              imgPath={sb}
+              isBlog={false}
+              title="Selenium Basics"
+              
+              demoLink="https://www.linkedin.com/posts/anupamapiyadigama_1000-free-courses-with-free-certificates-activity-7050457621987823616-_rqq?utm_source=share&utm_medium=member_desktop"
               hasLink={false}
                            
             />
