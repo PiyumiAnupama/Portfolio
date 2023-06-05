@@ -18,7 +18,7 @@ import cv from "../../Assets/Projects/13.png";
 import net from "../../Assets/Projects/14.png";
 import qa from "../../Assets/Projects/15.png";
 import sb from "../../Assets/Projects/17.png";
-
+import dh from "../../Assets/Projects/18.png";
 
 function Projects() {
   return (
@@ -178,6 +178,18 @@ function Projects() {
 
           <Col md={4} >
             <ProjectCard
+              imgPath={dh}
+              isBlog={false}
+              title="DHACK 2022 - Designathon Challenge"
+              
+              demoLink="https://www.linkedin.com/posts/anupamapiyadigama_1000-free-courses-with-free-certificates-activity-7047998248493465600-rmhw?utm_source=share&utm_medium=member_desktop"
+              hasLink={false}
+            />
+          </Col>
+          <p><p><p></p></p></p>
+
+          <Col md={4} >
+            <ProjectCard
               imgPath={ai}
               isBlog={false}
               title="Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning "
@@ -188,7 +200,7 @@ function Projects() {
             />
           </Col>
           
-            <p><p><p></p></p></p>
+           
           <Col md={4} >
             <ProjectCard
               imgPath={cv}
@@ -212,6 +224,7 @@ function Projects() {
                            
             />
           </Col>
+          <p><p><p></p></p></p>
           <Col md={4} >
             <ProjectCard
               imgPath={qa}
