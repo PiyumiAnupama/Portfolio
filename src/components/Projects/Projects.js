@@ -186,7 +186,7 @@ function Projects() {
               hasLink={false}
             />
           </Col>
-          <p><p><p></p></p></p>
+          <p><p><p></p></p></p><p></p>
 
           <Col md={4} >
             <ProjectCard
