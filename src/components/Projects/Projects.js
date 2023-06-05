@@ -182,7 +182,7 @@ function Projects() {
               isBlog={false}
               title="DHACK 2022 - Designathon Challenge"
               
-              demoLink="https://www.linkedin.com/posts/anupamapiyadigama_1000-free-courses-with-free-certificates-activity-7047998248493465600-rmhw?utm_source=share&utm_medium=member_desktop"
+              demoLink="https://www.linkedin.com/posts/anupamapiyadigama_uiux-unihelper-appdesign-activity-7071449973288042496-yhBn?utm_source=share&utm_medium=member_desktop"
               hasLink={false}
             />
           </Col>
