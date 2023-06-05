@@ -4,7 +4,7 @@
 </h2>
 
 
-<br/><br></br>
+<br/>
 
 
 
@@ -56,3 +56,4 @@ You will find all the components used and you can edit your information accordin
 Give a ⭐ if you like this website!
 
 <a href="[https://www.anupama.onrender.com](https://anupama.onrender.com/)" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+
